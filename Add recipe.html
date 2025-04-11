@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add recipe</title>
+</head>
+<body>
+    <hr size="20" color="red">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Add recipe.html">Add Recipe</a></li>
+        <li><a href="Recipe list.html">Recipe list</a></li>
+    </ul>
+    <h1>Recipe submission form</h1>
+    <hr size="10" color="red">
+    <br><br>
+    <from>
+    <label for="i">Recipe name</label>
+    <br><br>
+    <input type="text" id="i" required>
+    <br><br>
+    <label for="y"> Ingredients</label><br><br>
+    <input type="text" id="y"required>
+    <br><br>
+    <label for="z"> Cooking instruction</label><br><br>
+    <input type="text" id="z" required>
+    <br><br>
+    <label for="o">Image URL</label><br><br>
+    <input type="file" id="o" required>
+    <br><br>
+    <label for="u">Recipe Catagory</label>
+    <select id="u" name="catagory"><option value="" disabled selected>choose</option>
+        <option value="appetizer">appetizer</option>
+        <option value="main">main dish</option>
+        <option value="dessert">dessert</option>
+        <option value="afghan">afghan foods</option>
+        <option value="vegetarian">vegetarian</option>
+    </select><br><br>
+    <input type="submit" value="Add Recipe" >
+</from>
+</body>
+</html>
